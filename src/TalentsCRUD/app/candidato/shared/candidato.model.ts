@@ -1,0 +1,33 @@
+import { Vaga } from '../../vaga/shared/vaga.model';
+export class Candidato {
+	constructor(
+		public canditadoId?: number,
+		public nome?: string,
+		public skype?: string,
+		public telefone?: string,
+		public email?: string,
+		public linkedin?: string,
+		public cidade?: string,
+		public estado?: string,
+		public pretencaoSalario?: number,
+		public pretencaoSalarioHora?: number,
+		public nivelCSharp?: number,
+		public nivelAspNetMvc?: number,
+		public nivelAngularJs?: number,
+		public nivelJquery?: number,
+		public nivelBootstrap?: number,
+		public nivelWordpress?: number,
+		public nivelPhp?: number,
+		public nivelAndroid?: number,
+		public nivelIos?: number,
+		public nivelIonic?: number,
+		public portifolio?: string,
+		public conhecimentoLinguagens?: string,
+		public conhecimentoSGC?: string,
+		public areaInteresse?: string,
+		public horasDisponivel?: number,
+		public horarioDisponivel?: string,
+		public informacaoBancaria?: string,
+		public comentarioAdicional?: string,
+		public vagasParaCandidato?: Vaga[]){}
+}

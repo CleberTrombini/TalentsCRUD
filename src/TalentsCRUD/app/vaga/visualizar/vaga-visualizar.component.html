@@ -1,0 +1,19 @@
+<h1>Visualizar Vaga</h1>
+
+<div>
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <td>{{ vaga.vagaId }}</td>
+        </tr>
+        <tr>
+            <th>Nome</th>
+			<td>{{ vaga.descricao }}</td>
+		</tr>
+    </table>
+	<div class="text-center">
+		<a class="btn btn-default" [routerLink]="['/vagas']">
+			Voltar
+		</a>
+	</div>
+</div>
