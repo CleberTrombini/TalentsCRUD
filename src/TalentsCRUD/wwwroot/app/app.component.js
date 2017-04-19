@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'easy-app',
-            template: "<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <a class=\"navbar-brand\" href=\"#\">Talents Easy Com. Tech.</a>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav\">\n          <li><a routerLink=\"/\">Inicial</a></li>\n          <li><a routerLink=\"/candidatos\">Candidato</a></li>\n          <li><a routerLink=\"/vagas\">Vagas</a></li>\n          <li><a href=\"swagger/ui/index.html\">Documenta\u00E7\u00E3o Web API</a></li>\n        </ul>\n      </div>\n    </div>\n   </nav>\n   <router-outlet></router-outlet>"
+            template: "<nav class=\"navbar navbar-inverse\">\n    <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n        <a class=\"navbar-brand\" href=\"#\">Talents Easy Com. Tech.</a>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav\">\n          <li><a routerLink=\"/inicial\">Inicial</a></li>\n          <li><a routerLink=\"/candidatos\">Candidato</a></li>\n          <li><a routerLink=\"/vagas\">Vagas</a></li>\n          <li><a href=\"swagger/ui/index.html\">Documenta\u00E7\u00E3o Web API</a></li>\n        </ul>\n      </div>\n    </div>\n   </nav>\n   <router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

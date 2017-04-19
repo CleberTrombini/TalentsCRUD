@@ -3,11 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { CandidatoRoutes } from './candidato/candidato-routing.module';
 import { VagaRoutes } from './vaga/vaga-routing.module';
-//import { DemoRoutes } from './demo/demo-routing.module';
+import { InicialRoutes } from './inicial/inicial-routing.module';
 
 export const routes: Routes = [
 	...CandidatoRoutes,
-	...VagaRoutes
+    ...VagaRoutes,
+    ...InicialRoutes
 ];
 
 @NgModule({

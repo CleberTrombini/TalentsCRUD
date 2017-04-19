@@ -10,21 +10,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var candidato_routing_module_1 = require('./candidato/candidato-routing.module');
-var vaga_routing_module_1 = require('./vaga/vaga-routing.module');
-var inicial_routing_module_1 = require('./inicial/inicial-routing.module');
-exports.routes = candidato_routing_module_1.CandidatoRoutes.concat(vaga_routing_module_1.VagaRoutes, inicial_routing_module_1.InicialRoutes);
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
+var InicialComponent = (function () {
+    /**
+     * Construtor.
+     *
+     * @param ActivatedRoute route
+     * @param CandidatoService candidatoService
+     */
+    function InicialComponent(route) {
+        this.route = route;
     }
-    AppRoutingModule = __decorate([
-        core_1.NgModule({
-            imports: [router_1.RouterModule.forRoot(exports.routes)],
-            exports: [router_1.RouterModule]
+    /**
+     * Método executado logo após a criação do componente.
+     */
+    InicialComponent.prototype.ngOnInit = function () { };
+    InicialComponent = __decorate([
+        core_1.Component({
+            selector: 'kz-inicial',
+            templateUrl: 'app/inicial/inicial.component.html'
         }), 
-        __metadata('design:paramtypes', [])
-    ], AppRoutingModule);
-    return AppRoutingModule;
+        __metadata('design:paramtypes', [router_1.ActivatedRoute])
+    ], InicialComponent);
+    return InicialComponent;
 }());
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=app-routing.module.js.map
+exports.InicialComponent = InicialComponent;
+//# sourceMappingURL=inicial.component.js.map
