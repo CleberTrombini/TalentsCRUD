@@ -16,7 +16,7 @@ De acordo com as instruções do documento de boas vindas:
 * [Entity Framework Core] - Novo framework ORM da Microsoft.
 * [SQL Server] - Servidor de bando de dados da Microsoft.
 
-### Installation
+### Preparação para execução do CRUD
 
 O CRUD requer a instalação do [Node.js](https://nodejs.org/) v4+, [TypeScript] v2.2+, [VS Community 2015 - Update 3+](https://www.visualstudio.com/pt-br/vs/community) e [NPM] v3.10.10+
 
